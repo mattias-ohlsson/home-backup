@@ -12,4 +12,4 @@ Local:
 
 - Example
 mkdir -p ~/.local/home-backup/remotehost/username/
-rsync -v -a --delete -e 'ssh -p 2222' username@remotehost:~/ ~/.local/home-backup/remotehost/username/
+rsync -v -a --delete --exclude '.local' --exclude '.gvfs' -e 'ssh -p 2222' username@remotehost:~/ ~/.local/home-backup/remotehost/username/
