@@ -9,3 +9,7 @@ Remote exclude:
 
 Local:
 ~/.local/homebackup/#remotehostname#/#remoteusername#/
+
+- Example
+mkdir -p ~/.local/home-backup/remotehost/username/
+rsync -v -a --delete -e 'ssh -p 2222' username@remotehost:~/ ~/.local/home-backup/remotehost/username/
