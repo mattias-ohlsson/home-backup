@@ -4,5 +4,8 @@ Home Backup
 Remote: 
 ~/
 
+Remote exclude:
+~/.local/
+
 Local:
 ~/.local/homebackup/#remotehostname#/#remoteusername#/
