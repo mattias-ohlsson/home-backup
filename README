@@ -1,0 +1,8 @@
+Home Backup
+
+- Folder structure
+Remote: 
+~/
+
+Local:
+~/.local/homebackup/#remotehostname#/#remoteusername#/
